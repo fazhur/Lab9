@@ -1,6 +1,7 @@
-package ua.edu.ucu.apps.flowerstore;
+package ua.edu.ucu.apps.flowerstore.payment;
 
 import lombok.Getter;
+import ua.edu.ucu.apps.flowerstore.general.Order;
 
 public class ContextPayment {
     @Getter

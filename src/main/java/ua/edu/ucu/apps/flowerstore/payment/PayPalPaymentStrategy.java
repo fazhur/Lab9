@@ -1,4 +1,6 @@
-package ua.edu.ucu.apps.flowerstore;
+package ua.edu.ucu.apps.flowerstore.payment;
+
+import ua.edu.ucu.apps.flowerstore.general.Order;
 
 public class PayPalPaymentStrategy implements PaymentStrategy{
     @Override

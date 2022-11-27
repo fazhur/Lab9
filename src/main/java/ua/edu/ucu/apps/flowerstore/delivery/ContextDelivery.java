@@ -1,6 +1,8 @@
-package ua.edu.ucu.apps.flowerstore;
+package ua.edu.ucu.apps.flowerstore.delivery;
 
 import lombok.Getter;
+import ua.edu.ucu.apps.flowerstore.general.Order;
+
 @Getter
 public class ContextDelivery {
     private DeliveryStrategy strategy;

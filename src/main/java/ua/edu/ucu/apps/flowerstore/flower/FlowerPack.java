@@ -1,4 +1,6 @@
-package ua.edu.ucu.apps.flowerstore;
+package ua.edu.ucu.apps.flowerstore.flower;
+
+import ua.edu.ucu.apps.flowerstore.flower.Flower;
 
 public class FlowerPack {
     private Flower flower;

@@ -1,7 +1,6 @@
-package ua.edu.ucu.apps.flowerstore;
+package ua.edu.ucu.apps.flowerstore.delivery;
 
-import lombok.Getter;
-import lombok.Setter;
+import ua.edu.ucu.apps.flowerstore.general.Order;
 
 public class PostDeliveryStrategy implements DeliveryStrategy {
     public PostDeliveryStrategy() {

@@ -1,6 +1,10 @@
-package ua.edu.ucu.apps.flowerstore;
+package ua.edu.ucu.apps.flowerstore.general;
 
 import lombok.Getter;
+import ua.edu.ucu.apps.flowerstore.flower.Flower;
+import ua.edu.ucu.apps.flowerstore.flower.FlowerBucket;
+import ua.edu.ucu.apps.flowerstore.flower.FlowerColor;
+import ua.edu.ucu.apps.flowerstore.flower.FlowerType;
 
 import java.util.ArrayList;
 
@@ -17,6 +21,6 @@ public class Store {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Flower(10, FlowerColor.BLUE, 100, FlowerType.ROSE));
+        System.out.println(new Flower(1, 10, FlowerColor.BLUE, 100, FlowerType.ROSE));
     }
 }

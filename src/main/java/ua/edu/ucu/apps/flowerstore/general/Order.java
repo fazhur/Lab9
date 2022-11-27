@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.flowerstore;
+package ua.edu.ucu.apps.flowerstore.general;
 
 import lombok.Getter;
 
